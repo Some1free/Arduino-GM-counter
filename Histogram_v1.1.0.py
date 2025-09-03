@@ -1,5 +1,5 @@
 # Author: Mateusz Wolniewicz
-# Date: 06/06/2024
+# Date: 14/01/2025
 # Version: 1.1.0
 # Licence: Open Source
 # Pyhon version: 3.12.3
@@ -147,3 +147,4 @@ plt.xlabel('Counts per %dms range' % (interval))
 plt.ylabel('Counts')
 plt.title('Geiger-Muller Counter Histogram')
 plt.show()
+
