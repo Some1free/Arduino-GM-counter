@@ -26,8 +26,9 @@ Command-line arguments:
 * '-r', '--records', type=int, default=1000,  'Number of records to be kept on the histogram'
 * '-s', '--save_data', type=bool, default=False,  'Whether to save data to a file'
 * '-fn', '--filename', type=str, default='./geiger_data.csv',  'CSV file name for saving data'
+
 Example: 
-python histogram.py -p COM6 -min 0 -max 20 -i 6000 -r 1000 -s True -f ./geiger_data.csv
+python Histogram_v1.1.0.py -p COM6 -min 0 -max 20 -i 6000 -r 1000 -s True -f ./geiger_data.csv
 
 
 Requirements: 
